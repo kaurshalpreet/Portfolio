@@ -43,9 +43,9 @@ function About() {
             </article>  
             
               <p style={fontStyle}>Let's connect! You can also find me on 
-                <a href="https://www.linkedin.com/in/shalpreet-kaur-web-developer" target="_blank" className="fa fa-linkedin"></a>
-                <a href="https://github.com/kaurshalpreet" target="_blank" className="fa fa-github"></a> 
-                <a href="https://docs.google.com/document/d/17YKOUv9zafEvS_Jo_C1EDyENfAzddeQR3qpFB1ww39Q/edit?usp=sharing" target="_blank">
+                <a href="https://www.linkedin.com/in/shalpreet-kaur-web-developer" target="_blank" rel="noreferrer" className="fa fa-linkedin"></a>
+                <a href="https://github.com/kaurshalpreet" target="_blank" rel="noreferrer" className="fa fa-github"></a> 
+                <a href="https://docs.google.com/document/d/17YKOUv9zafEvS_Jo_C1EDyENfAzddeQR3qpFB1ww39Q/edit?usp=sharing" target="_blank" rel="noreferrer">
                   <img className="img-fluid placeholder-thumbnail resume-img" src="images/cv.png"  alt="Resume-link" />
                 </a> <br />
                 Email : <a href="mailto:kaurshalpreet@gmail.com">kaurshalpreet@gmail.com</a> <br />

@@ -1,35 +1,34 @@
-import React from 'react';
+import React from "react";
 
-function Projects() {
-    return (
-        <div className="row">
-     <div className="col-sm-12">
-       <h4>Project Title: Form Generator</h4>
-       <h6>
-         Link to the Github Repository:
-         <a
-           href="https://github.com/kaurshalpreet/Form-Generator"
-           target="_blank" rel="noreferrer"
-         >
-           https://github.com/kaurshalpreet/Form-Generator</a
-         >
-       </h6>
-       <h6>
-         Link to the deployed Application:
-         <a href="https://ancient-earth-94263.herokuapp.com/" target="_blank" rel="noreferrer"
-           >https://ancient-earth-94263.herokuapp.com</a
-         >
-       </h6>
-       <a href="https://ancient-earth-94263.herokuapp.com/" target="_blank" rel="noreferrer">
-         <img
-           className="img-fluid placeholder-thumbnail"
-           src="images/formGenerator.png"
-           alt="Form-Generator"
-         />
-       </a>
-     </div>
-   </div>
-    );
+function Projects(props) {
+  return (
+    <div>
+      <div className="row">
+        <div className="col-sm-12">
+          <h4>{props.title}</h4>
+          <h6>
+            Link to the Github Repository:
+            <a href={props.gitrep} target="_blank" rel="noreferrer">
+              {props.gitrep}
+            </a>
+          </h6>
+          <h6>
+            Link to the deployed Application:
+            <a href={props.herokulink} target="_blank" rel="noreferrer">
+              {props.herokulink}
+            </a>
+          </h6>
+          <a href={props.herokulink} target="_blank" rel="noreferrer">
+            <img
+              className="img-fluid placeholder-thumbnail"
+              src={props.srcprop}
+              alt={props.altprop}
+            />
+          </a>
+        </div>
+      </div>
+      <hr />
+    </div>
+  );
 }
- export default Projects;
-
+export default Projects;
