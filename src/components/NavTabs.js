@@ -10,7 +10,7 @@ function NavTabs() {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark bg-primary">
         <span className="navbar-brand mb-1 h1 p-2" style={styleOne}>
-          <a href="/" className="nameLink">
+          <a href="#/" className="nameLink">
             Shalpreet Kaur
           </a>
         </span>
