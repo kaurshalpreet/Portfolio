@@ -1,0 +1,99 @@
+
+/* font size for paragraph */
+p {
+    font-size: 22px;
+}
+
+/* added background Image */
+/* body {
+    background-image: url(https://i.pinimg.com/originals/b4/31/1c/b4311c17c04a3d94f05d781948a409f4.jpg);
+} */
+
+/* image set to top right */
+.image {
+  float: right;
+}
+
+.nameLink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.nameLink {
+  color: white;
+}
+
+.col-sm-12 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.background {
+  background-color: white;
+}
+
+.footer {
+    background-color: #333;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+    border-top: 4px solid gold;
+  }
+  
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+        /* Hover effect for social media Icon */
+.fa:hover {
+    opacity: 0.7;
+}  
+  /* Set a specific color for each brand */
+  
+  /* LinkedIn */
+  .fa-linkedin {
+    border-radius: 5px;
+    margin-left: 10px;
+    background: #3B5998;
+    color: white;
+    padding: 4px;
+  }
+
+  /* Github */
+  .fa-github {
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: black;
+    padding: 4px;
+    color: white;
+  }
+
+  /* Resume Image */
+  .resume-img {
+    border-radius: 5px;
+    margin-left: 10px;
+    height: 30px;
+    width: 27px;
+    background-color: black;
+    margin-bottom: 7px;
+  }
+
+  /*  Hover effect for Resume Icon  */
+  .resume-img:hover {
+    opacity: 0.5;
+  }
+
+
+
+  /* media query set to apply padding to the image */
+  @media screen and (max-width: 993px) {
+    .image{
+      padding: 10px;
+    }
+  }
+
+
