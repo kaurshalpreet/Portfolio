@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Portfolio
+React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+ This is an application showcasing my Bio, Portfolio and Contact pages using React. [The project can be accessed at my github repository](https://github.com/kaurshalpreet/Portfolio)
+ 
+ ![Repository Screenshot](./public/images/repo.png)
 
-## Available Scripts
+ ---
 
-In the project directory, you can run:
+# Table of Contents
+1. Getting Started
+1. Running the application
+1. Responsive Layout
+1. Credits
+---
 
-### `npm start`
+## Getting Started
+This is 3 page application.
+Each page has a consistent navigation bar and a sticky footer. Each page has a link to navigate to other pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+"About Me" is the main page about myself and has links to my LinkedIn & Github profiles. There is also a link to my resume just next to Github and linkedIn icons. You need to click on the icons/images which will redirect you to my Github and linkedIn profiles and Resume. You can also find my email address and Contact number on this page.
+[About Me Page](https://kaurshalpreet.github.io/Portfolio/#/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+"Portfolio" features my recent projects. You can find the links to my Github repositories and the Links to deployed Projects on this page. By simply Clicking on the images/screenshots or gifs will redirect you to the deployed page.
+[Portfolio Page](https://kaurshalpreet.github.io/Portfolio/#/portfolio)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"Contact" provides the option to contact me through the webpage.
+[Contact Page](https://kaurshalpreet.github.io/Portfolio/#/contact)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each page is designed to be responsive for mobile screen. Below images show the different view on  a large screen vs a small screen.
 
-### `npm run eject`
+![Index sm & above](./public/images/index_lg.png)  | ![Index xs](./public/images/index_xs.png) 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Running the Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+[My PORTFOLIO can be accessed here](https://kaurshalpreet.github.io/Portfolio/#/)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The index.html has links to my LinkedIn & Github profiles as well as my email address and Contact number. You can also navigate to portfolio and contact pages.
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Responsive Layout
+The webpages are designed to be responsive for viewing on mobile devices. On an `xs` screen, content takes up the entire screen. On `sm` and larger screens, some margins on the left and right sides of the screen will be observed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Responsive index page](./public/images/Responsive.gif)
 
-### Code Splitting
+When viewed on mobile device, the navigation links get collaopsed into a navigation icon. When clicked on the navigation icon, it displays the navigation menu.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Menubar](./public/images/MenuBar.gif)
 
-### Analyzing the Bundle Size
+The images also display responsive behavior when viewed on small screen.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![Responsive images](./public/images/Responsive_image.gif)
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Credits
+* UC Davis BootCamp-Instructor & TAs!
+* https://getbootstrap.com/
+* https://www.youtube.com/watch?v=5GcQtLDGXy8
+* https://www.youtube.com/watch?v=cHAcSQyvBqQ
+* https://www.google.com/
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Copyright  &copy;2020 Shalpreet Kaur
 
-### `npm run build` fails to minify
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ 
