@@ -5,11 +5,9 @@ import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import NavTabs from "./components/NavTabs";
 import Footer from "./components/Footer";
-// import Code from "./components/code.jpg";
 
 function App() {
   return (
-    // <div  styles={{ backgroundImage:`url(${Code})` }}>
     <Router>
       <div>
         <NavTabs />
