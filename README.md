@@ -1,6 +1,8 @@
 # Portfolio
 React-Portfolio
 
+![Badge](https://img.shields.io/badge/license-MIT-Red)
+
 ## Description
  This is an application showcasing my Bio, Portfolio and Contact pages using React. [The project can be accessed at my github repository](https://github.com/kaurshalpreet/Portfolio)
  
@@ -9,10 +11,10 @@ React-Portfolio
  ---
 
 # Table of Contents
-1. Getting Started
-1. Running the application
-1. Responsive Layout
-1. Credits
+1. [Getting Started](#GettingStarted)
+1. [Running the application](#Runningtheapplication)
+1. [Responsive Layout](#ResponsiveLayout)
+1. [Credits](#Credits)
 ---
 
 ## Getting Started
